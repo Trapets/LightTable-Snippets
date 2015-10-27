@@ -1,0 +1,28 @@
+{:modes {:+ #{:editor.css}}
+ :helper "helpFunc.js"
+ :snippets [
+    {:name "CSS section header (3 lines)"
+     :key "csh3"
+     :no-indent true
+     :snippet-file "cssSectionHeader3.snip"}
+
+    {:name "CSS section header (1 line)"
+     :key "csh1"
+     :snippet-file "cssSectionHeader1.snip"
+     :no-indent true}
+
+    {:name "Insert date"
+     :key "cdate"
+     :snippet "/* Created: ${__new Date()__} */"}
+
+    {:name "CSS start template"
+     :key "cstart"
+     :snippet-file "cssStartTemplate.snip"
+     :no-indent true}
+
+    {:name "CSS Reset (E.Meyer's edited)"
+     :key "creset"
+     :snippet-file "cssReset.snip"
+     :no-indent true}
+
+]}
